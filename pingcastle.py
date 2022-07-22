@@ -1,7 +1,7 @@
 # Author  : TRIKKSS
 # discord : TRIKKSS#4955
 # github  : github.com/TRIKKSS
-# readme  : github.com/TRIKKSS/
+# readme  : github.com/TRIKKSS/CrackMapExec-PingCastle/blob/main/README.md
 
 from impacket.smbconnection import SMBConnection
 from os import getcwd
