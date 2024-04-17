@@ -12,7 +12,7 @@ class NXCModule:
 
 
 	name = 'pingcastle'
-	description = 'execute pingcastle on a remote machine and download the results files'
+	description = 'Execute pingcastle on a remote machine and download the results files'
 	supported_protocols = ['smb']
 	opsec_safe = True
 	multiple_hosts = False
