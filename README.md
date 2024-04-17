@@ -33,7 +33,7 @@ cme smb $DC_HOST -d $DOMAIN -u $USER -p $PASSWORD -M pingcastle -o <options>
 nxc smb $DC_HOST -d $DOMAIN -u $USER -p $PASSWORD -M pingcastle -o <options>
 ```
 
-#### Options
+### Options
 
 ```bash
 # CrackMapExec
@@ -46,7 +46,7 @@ nxc smb -M pingcastle --options
             PINGC_FLAG    flags for the PingCastle executable (optional)
 ```
 
-#### EXAMPLE
+### Example
 
 ```bash
 nxc smb 172.16.13.35 -u Administrateur -H 552902031BEDE9EFAAD3B435B51404EE:878D8014606CDA29677A44EFA1353FC7 -M pingcastle -o PINGC_PATH=/path/to/PingCastle.exe PINGC_CONF=/path/to/PingCastle.exe.config PINGC_FLAG='--no-enum-limit,--healthcheck'
